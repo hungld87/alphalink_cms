@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_hero_slides",
+  "info": {
+    "displayName": "HeroSlide",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_alt": {
+      "type": "string"
+    },
+    "link_internal": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

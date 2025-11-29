@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_benefit_items",
+  "info": {
+    "displayName": "BenefitItem",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  },
+  "config": {}
+}

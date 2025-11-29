@@ -11,10 +11,19 @@
     },
     "pluginOptions": {},
     "attributes": {
-        "home_hero": {
+        "hero_slides": {
             "type": "component",
-            "component": "blocks.section-hero",
-            "repeatable": false
+            "component": "block.hero-slide",
+            "repeatable": true
+        },
+        "services_section_title": {
+            "type": "string",
+            "required": true
+        },
+        "services": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::service.service"
         }
     }
 }
