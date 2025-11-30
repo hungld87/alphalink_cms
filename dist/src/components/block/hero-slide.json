@@ -13,7 +13,7 @@
         "subtitle": {
             "type": "string"
         },
-        "background_image": {
+        "backgroundImage": {
             "type": "media",
             "multiple": false,
             "required": true,
@@ -21,11 +21,15 @@
                 "images"
             ]
         },
-        "image_alt": {
-            "type": "string"
+        "primaryAction": {
+            "type": "component",
+            "component": "block.primary-action",
+            "repeatable": false
         },
-        "link_internal": {
-            "type": "string"
+        "secondaryAction": {
+            "type": "component",
+            "component": "block.secondary-action",
+            "repeatable": false
         }
     },
     "config": {}

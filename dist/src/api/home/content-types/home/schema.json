@@ -11,7 +11,7 @@
     },
     "pluginOptions": {},
     "attributes": {
-        "hero_slides": {
+        "heroSlides": {
             "type": "component",
             "component": "block.hero-slide",
             "repeatable": true
@@ -20,10 +20,15 @@
             "type": "string",
             "required": true
         },
-        "services": {
-            "type": "relation",
-            "relation": "oneToMany",
-            "target": "api::service.service"
+        "partners": {
+            "type": "component",
+            "component": "block.partners",
+            "repeatable": true
+        },
+        "featuredProjects": {
+            "type": "component",
+            "component": "block.featured-projects",
+            "repeatable": true
         }
     }
 }

@@ -1,0 +1,55 @@
+# Node
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Build / cache
+dist/
+build/
+.cache/
+.vite/
+
+# Typescript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Strapi / uploads
+public/uploads/
+uploads/
+
+# Generated types
+types/generated/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+/.env
+/.env.*
